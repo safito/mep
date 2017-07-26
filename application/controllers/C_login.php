@@ -27,6 +27,7 @@ class C_login extends CI_Controller {
 		if($result){
 			
 			//Si el login es satisfactorio entonces se crea la sesion.
+			//Esto es una prueba para probar git
 			foreach ($result as $resultado){
 
 				$id_usuario = $resultado->id_usuario;

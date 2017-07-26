@@ -8,7 +8,7 @@ class C_usuarios extends CI_Controller {
 		parent::__construct();
 	    $this->load->model('m_usuarios','m');
 	    $this->load->model('m_especialidad', 'e');
-	    $this->load->model('m_usuarios_tipo', 'ut');
+	    $this->load->model('m_usuarios_tipo', 'ut');	    
 	    	 
 	}
 

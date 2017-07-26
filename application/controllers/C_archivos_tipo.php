@@ -6,7 +6,7 @@ class C_archivos_tipo extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-	    $this->load->model('m_archivos_tipo','m');
+	    $this->load->model('m_archivos_tipo','m');	    
 	    	 
 	}
 
@@ -21,6 +21,7 @@ class C_archivos_tipo extends CI_Controller {
 
 	public function add_archivos_tipo(){
 		$this->load->view('layout/header');
+		$this->load->helper('form');
 		$this->load->view('V-add_archivos_tipo');
 		$this->load->view('layout/footer');
 	}

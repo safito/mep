@@ -1,6 +1,4 @@
 
-
-
 <h3>Añadir Tipos de Archivo</h3>
 
 

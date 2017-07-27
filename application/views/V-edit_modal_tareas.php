@@ -39,10 +39,13 @@
 
 ?>
 
+<style>
+    .datetimepicker1{z-index: 50000 !important; /* has to be larger than 1050 */}
+</style>
 
  <script type="text/javascript">
      $(function () {
-     $('#datetimepicker1').datetimepicker({format: 'YYYY/MM/DD HH:MM'; autoclose:true});
+     $('#datetimepicker1').datetimepicker({format: 'YYYY/MM/DD HH:MM'});
    
          });
  </script>

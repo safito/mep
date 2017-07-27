@@ -75,7 +75,7 @@
 		         
  <script type="text/javascript">
      $(function () {
-     $('#datetimepicker1').datetimepicker({format: 'YYYY/MM/DD HH:MM'; autoclose:true});
+     $('#datetimepicker1').datetimepicker({format: 'YYYY/MM/DD HH:MM'});
 
          });
  </script>
@@ -91,7 +91,6 @@
 
 <form action="<?php echo base_url('c_archivos/update') ?>" method="post" class="form-horizontal">
 <input type="hidden" name="txt_hidden" value="<?php echo $archivos->id_archivo; ?>">
-
 
 
 	

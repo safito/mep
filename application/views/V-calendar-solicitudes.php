@@ -1,9 +1,6 @@
 
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset='utf-8' />
+
 <link href='<?php echo base_url();?>assets/fullcalendar/fullcalendar.css' rel='stylesheet' />
 <link href='<?php echo base_url();?>assets/fullcalendar/fullcalendar.print.css' rel='stylesheet' media='print' />
 <script src='<?php echo base_url();?>assets/fullcalendar/lib/moment.min.js'></script>
@@ -38,12 +35,20 @@
 					//La siguiente funcion abre un modal para edicion del evento.
 					eventClick: function(event, jsEvent, view){
 						
-							url = "<?php echo base_url();?>c_activos_solicitudes/modal_edit/" + event.id; 
+							url = "<?php echo base_url();?>c_activos_solicitudes/modal_edit/" + event.id;
 
-							var options = {
+							var options = {								
 								"remote" : url
+																
 							}
 							$('#myModal').modal(options);
+							//Una vez que se destruye, hay que hacer un reload del dropdown
+							//Si no este desaparece y hay que hacer reload de la pagina.
+							$('#myModal').on('hidden.bs.modal', function(){								
+							$('.dropdown-toggle').dropdown();
+								
+
+							})
 
 					},
 
@@ -77,8 +82,8 @@
 	}
 
 </style>
-</head>
-<body>
+
+
 
 
 <?php
@@ -112,8 +117,10 @@
 
 	<div id='calendar'></div>
 
+</div>
+<div class="container">
 
- <!-- Modal -->
+<!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -137,5 +144,4 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
-</body>
-</html>
+

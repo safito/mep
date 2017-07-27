@@ -60,10 +60,12 @@ class C_activos_solicitudes extends CI_Controller {
 		$data['activos'] = $this->a->listar_activos();
 		$data['usuarios'] = $this->u->listar_usuarios();
 		$data['estados'] = $this->e->listar_estados();
-		$this->load->view('layout/header_modal');
+//issue #2 -- Bootstrap cae en modo oversubscribed se elimina el requisito de header y footer
+		//puesto que el parent ya los contiene.
+//		$this->load->view('layout/header_modal');
 		$this->load->helper('form');
 		$this->load->view('V-edit_modal_solicitudes', $data);
-		$this->load->view('layout/footer');
+//		$this->load->view('layout/footer');
 	}
 
 	public function update(){

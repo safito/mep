@@ -49,6 +49,9 @@
 
 ?>
 
+<div class="container">
+<body>
+
 <h3>Edición de Solicitudes</h3>
 
 <div class="row"> 

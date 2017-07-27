@@ -40,15 +40,15 @@
 ?>
 
 
-
  <script type="text/javascript">
      $(function () {
      $('#datetimepicker1').datetimepicker({format: 'YYYY/MM/DD HH:MM'; autoclose:true});
-
+   
          });
  </script>
 
-
+<div class="container">
+<body>
 
 <h3>Edición de Tareas</h3>
 

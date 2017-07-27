@@ -68,10 +68,10 @@ class C_tareas extends CI_Controller {
 		$data['tareas'] = $this->m->tareasbyid($id);
 		$data['usuarios'] = $this->u->listar_usuarios();
 		$data['estados'] = $this->e->listar_estados();
-		$this->load->view('layout/header_modal');
+//		$this->load->view('layout/header_modal');
 		$this->load->helper('form');
 		$this->load->view('V-edit_modal_tareas', $data);
-		$this->load->view('layout/footer');
+//		$this->load->view('layout/footer');
 
 	}
 

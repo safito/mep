@@ -1,15 +1,5 @@
 
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset='utf-8' />
-<link href='<?php echo base_url();?>assets/fullcalendar/fullcalendar.css' rel='stylesheet' />
-<link href='<?php echo base_url();?>assets/fullcalendar/fullcalendar.print.css' rel='stylesheet' media='print' />
-<script src='<?php echo base_url();?>assets/fullcalendar/lib/moment.min.js'></script>
-<script src='<?php echo base_url();?>assets/fullcalendar/fullcalendar.min.js'></script>
-<script src='<?php echo base_url();?>assets/fullcalendar/locale/es.js'></script>
-
 
 <script>
 
@@ -44,6 +34,18 @@
 								"remote" : url
 							}
 							$('#myModal').modal(options);
+							
+							
+							//Una vez que se destruye, hay que hacer un reload del dropdown
+							//Si no este desaparece y hay que hacer reload de la pagina.
+							$('#myModal').on('hidden.bs.modal', function(){
+														
+								
+   							 	//$('.dropdown-toggle').dropdown();
+   							 	
+								
+							
+							})
 
 					},
 
@@ -77,8 +79,6 @@
 	}
 
 </style>
-</head>
-<body>
 
 
 
@@ -107,6 +107,7 @@
 <div>
 <h1 class="text-center">Calendario de Tareas</h1>
 </div>
+
 <br><br>
 
 
@@ -123,11 +124,7 @@
                 </div>
                 <div class="modal-body">
 
-                <form>
-                	
-
-
-                </form>
+             
 
                 </div>
                 <div class="modal-footer">

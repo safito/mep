@@ -39,9 +39,7 @@
 
 ?>
 
-<style>
-    .datetimepicker1{z-index: 50000 !important; /* has to be larger than 1050 */}
-</style>
+
 
  <script type="text/javascript">
      $(function () {

@@ -48,6 +48,19 @@
 
 
 ?>
+ <script type="text/javascript">
+     $(function () {
+     $('#datetimepicker1').datetimepicker({format: 'YYYY/MM/DD HH:MM'});
+   
+         });
+ </script>
+
+  <script type="text/javascript">
+     $(function () {
+     $('#datetimepicker2').datetimepicker({format: 'YYYY/MM/DD HH:MM'});
+   
+         });
+ </script>
 
 <div class="container">
 <body>
@@ -94,17 +107,30 @@
 		 </div>
 	</div>
 
-	<div class="form-group">
+		<div class="form-group">
 	 <label for="title" class="col-md-2 text-right"> Entrada </label>
 		 <div class="col-md-4">
-		 	<input type="text" value="<?php echo $activos_solicitudes->entrada; ?>" name="txt_entrada" class="form-control" required>
+		   <div class='input-group date' id='datetimepicker1'>
+		                     <input type='text' name="txt_entrada" class="form-control" value="<?php echo $activos_solicitudes->entrada; ?>" />
+		                     <span class="input-group-addon">
+		                         <span class="glyphicon glyphicon-calendar"></span>
+		                     </span>
+         	</div>
+		 	
 		 </div>
 	</div>
+
 
 	<div class="form-group">
 	 <label for="title" class="col-md-2 text-right"> Salida </label>
 		 <div class="col-md-4">
-		 	<input type="text" value="<?php echo $activos_solicitudes->salida; ?>" name="txt_salida" class="form-control" required>
+		   <div class='input-group date' id='datetimepicker2'>
+		                     <input type='text' name="txt_salida" class="form-control" value="<?php echo $activos_solicitudes->salida; ?>" />
+		                     <span class="input-group-addon">
+		                         <span class="glyphicon glyphicon-calendar"></span>
+		                     </span>
+         	</div>
+		 	
 		 </div>
 	</div>
 

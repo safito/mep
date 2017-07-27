@@ -50,14 +50,14 @@
 ?>
  <script type="text/javascript">
      $(function () {
-     $('#datetimepicker1').datetimepicker({format: 'YYYY/MM/DD HH:MM'});
+     $('#datetimepicker1').datetimepicker({format: 'YYYY/MM/DD HH:mm'});
    
          });
  </script>
 
   <script type="text/javascript">
      $(function () {
-     $('#datetimepicker2').datetimepicker({format: 'YYYY/MM/DD HH:MM'});
+     $('#datetimepicker2').datetimepicker({format: 'YYYY/MM/DD HH:mm'});
    
          });
  </script>

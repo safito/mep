@@ -33,19 +33,11 @@
 							var options = {
 								"remote" : url
 							}
+							
+							$('#myModal').removeData('bs.modal');
 							$('#myModal').modal(options);
 							
-							
-							//Una vez que se destruye, hay que hacer un reload del dropdown
-							//Si no este desaparece y hay que hacer reload de la pagina.
-							$('#myModal').on('hidden.bs.modal', function(){
-														
-								
-   							 	//$('.dropdown-toggle').dropdown();
-   							 	
-								
-							
-							})
+						
 
 					},
 

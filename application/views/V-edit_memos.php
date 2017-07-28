@@ -15,7 +15,7 @@
 	<div class="form-group">
 	 <label for="title" class="col-md-2 text-right"> Fecha Creacion </label>
 		 <div class="col-md-4">
-		 	<input type="text" value="<?php echo $memos->fecha_creacion; ?>" name="txt_fecha_creacion" class="form-control" required>
+		 	<input type="text" value="<?php echo $memos->fecha_creacion; ?>" name="txt_fecha_creacion" class="form-control" readonly>
 		 </div>
 	</div>
 

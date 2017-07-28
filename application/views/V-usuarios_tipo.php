@@ -1,4 +1,4 @@
-
+<div class="container">
 
 
 <h3>Listado de Usuarios Tipo</h3>

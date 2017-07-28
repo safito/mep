@@ -36,7 +36,7 @@
 
 
 
-
+<div class="container">
 
 <h3>Edición de Usuario</h3>
 

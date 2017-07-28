@@ -1,4 +1,4 @@
-
+<div class="container">
 
 
 <h3>Añadir Usuarios Tipo</h3>

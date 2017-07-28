@@ -95,7 +95,7 @@
 <?php
 	}
 ?>
-
+<div class="container">
 <div>
 <h1 class="text-center">Calendario de Tareas</h1>
 </div>

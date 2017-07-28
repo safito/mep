@@ -78,4 +78,3 @@ $nombre = $this->session->userdata['logged_in']['nombre'];
 
 
 
-<div class="container">

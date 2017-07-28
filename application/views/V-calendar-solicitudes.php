@@ -102,7 +102,7 @@
 <?php
 	}
 ?>
-
+<div class="container">
 
 <div>
 <h1 class="text-center">Solicitudes de Activos</h1>

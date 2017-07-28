@@ -80,7 +80,7 @@
          });
  </script>
 
-
+<div class="container">
 <h3>Edición de Archivos</h3>
 
 <div class="row"> 

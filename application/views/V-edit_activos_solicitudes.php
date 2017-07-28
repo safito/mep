@@ -62,7 +62,7 @@
    
          });
  </script>
-
+<div class="container">
 <h3>Edición de Solicitudes</h3>
 
 <div class="row"> 

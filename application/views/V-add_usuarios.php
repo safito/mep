@@ -31,7 +31,7 @@
 	}
 
 ?>
-
+<div class="container">
 <h3>Añadir Usuario</h3>
 
 

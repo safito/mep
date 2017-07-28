@@ -48,7 +48,7 @@
          });
  </script>
 
-
+<div class="container">
 
 <h3>Edición de Tareas</h3>
 

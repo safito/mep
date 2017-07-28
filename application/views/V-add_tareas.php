@@ -32,7 +32,7 @@ $id_usuario = $this->session->userdata['logged_in']['id_usuario'];
          });
  </script>
 
-
+<div class="container">
 
 <h3>Añadir Tareas</h3>
 

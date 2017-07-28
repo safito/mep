@@ -56,7 +56,7 @@ $id_usuario = $this->session->userdata['logged_in']['id_usuario'];
 ?>
 
 
-
+<div class="container">
 
 <h3>Añadir Archivos</h3>
 

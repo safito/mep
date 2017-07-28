@@ -1,4 +1,4 @@
-
+<div class="container">
 
 
 <h3>Edición de Activo</h3>

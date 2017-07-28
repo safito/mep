@@ -28,9 +28,9 @@
 	
 	<div class="form-group">
 	 <label for="title" class="col-md-2 text-right"> Descripcion </label>
-		 <div class="col-md-4">
-		 	<input type="text" value="<?php echo $memos->descripcion; ?>" name="txt_descripcion" class="form-control" required>
-		 </div>
+		<div class="col-md-4">
+		<textarea class="form-control" name="txt_descripcion" required><?php echo $memos->descripcion; ?></textarea>
+		</div>
 	</div>
 
 	<div class="form-group">

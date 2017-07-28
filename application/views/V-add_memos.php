@@ -24,7 +24,8 @@
 	<div class="form-group">
 	 <label for="title" class="col-md-2 text-right"> Descripcion </label>
 		 <div class="col-md-4">
-		 	<input type="text" name="txt_descripcion" class="form-control" required>
+		 <textarea class="form-control" rows="5" name="txt_descripcion" required=""> </textarea>
+		 	
 		 </div>
 	</div>
 

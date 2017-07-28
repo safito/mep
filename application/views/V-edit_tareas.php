@@ -43,7 +43,7 @@
 
  <script type="text/javascript">
      $(function () {
-     $('#datetimepicker1').datetimepicker({format: 'YYYY/MM/DD HH:MM', keepOpen: false});
+     $('#datetimepicker1').datetimepicker({format: 'YYYY/MM/DD HH:mm'});
 
          });
  </script>
